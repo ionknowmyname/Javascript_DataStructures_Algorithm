@@ -14,7 +14,7 @@ function diagonalDifference(arr) {
 
     let sum1 =0, sum2 = 0;
 
-     for(let i = 0; i < arr.length; i++) {
+    for(let i = 0; i < arr.length; i++) {
         for(let j = 0; j < arr.length; j++) {
             if(i == j){ // that means on the slant down diagonal
                 sum1 += arr[i][j]; 
@@ -30,11 +30,10 @@ function diagonalDifference(arr) {
 
     OR
 
-    for (let i = 0; i < arr.length; i++)
-        {
-            sum1 += arr[i][i];
-            sum2 += arr[i][arr.length-i-1];
-        }
+    for (let i = 0; i < arr.length; i++){
+        sum1 += arr[i][i];
+        sum2 += arr[i][arr.length-i-1];
+    }
 
 
 
