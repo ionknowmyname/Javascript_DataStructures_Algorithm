@@ -1,3 +1,9 @@
+/* 
+    return the array index of the number such that 
+    sum of values on right == sum of values on left;
+    return -1 if no such value exists
+*/
+
 var pivotIndex = function(nums) {
     let leftSum = 0
     let sum = 0
