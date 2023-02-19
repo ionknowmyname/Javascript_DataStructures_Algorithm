@@ -1,5 +1,6 @@
 /* 
-    Longest substring with at most 2 distinct characters
+    Longest substring with at most 2 distinct characters 
+    i.e the two characters can be repeated any number of times bt no 3rd character
     SLIDING WINDOW TECHNIQUE (Variable sized window)
     
 */
